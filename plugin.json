@@ -1,10 +1,10 @@
 {
-    "name": "My plugin",
+    "name": "Semantic Chunking",
     "version": "0.0.1",
-    "description": "Description of my_plugin.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/my_plugin",
-    "tags": "cat, template, example",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/my_plugin.png"
+    "description": "Description of semantic_chunking.",
+    "author_name": "nickprock",
+    "author_url": "https://github.com/nickprock",
+    "plugin_url": "https://github.com/nickprock/ccat_semantic_chunking",
+    "tags": "cat, semantic_chunking",
+    "thumb": "https://raw.githubusercontent.com/nickprock/ccat_semantic_chunking/main/IMG_6689.png"
 }

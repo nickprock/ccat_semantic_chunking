@@ -17,4 +17,6 @@ the recommended values by langchain for `breakpoint_threshold_amount` are:
         *"standard_deviation"*: 3
         *"interquartile"*: 1.5
 
+> NOTE: The SemanticChunker is an experimental component in LangChain, it couldn't work or produce some errors.
+
 ![splitter](https://github.com/nickprock/ccat_semantic_chunking/blob/main/IMG_6689.png)
