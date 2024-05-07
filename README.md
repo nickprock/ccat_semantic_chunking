@@ -1,26 +1,20 @@
-# My plugin
+# Semantic Chunking
 
-[![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=383938&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
-[![Awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=Awesome+plugin&color=000000&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
 [![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=F4F4F5&style=for-the-badge&logo=cheshire_cat_black)](https://)
 
-Write here all the useful information about your plugin.
+Splits the text based on semantic similarity.
+Check the [official LangChain documentation page](https://python.langchain.com/docs/modules/data_connection/document_transformers/semantic-chunker/)
 
-This repository is the template to automate the release of official Cheshire Cat AI plugins. 
+## Settings
 
-## Usage
+`breakpoint_threshold_type` must be one between:
+* *"percentile"*
+* *"standard_deviation"*
+* *"interquartile"*
+    
+the recommended values by langchain for `breakpoint_threshold_amount` are:
+        *"percentile"*: 95
+        *"standard_deviation"*: 3
+        *"interquartile"*: 1.5
 
-1. Create a new repository clicking on the `Use this template` button.
-2. Clone your new repo directly in the Cat's `plugins` folder.
-3. Run the `setup.py` script:
-```bash
-python setup.py
-```
-The script will prompt you to write the name of your plugin and make an initial setup setting the name in the files.
-
-4. Start developing!
-
-> **Important**
-> A new release of your plugin is triggered every time you set a new `version` in the `plugin.json` file.
-> Please, remember to set it correctly every time you want to release an update.
-
+![splitter](https://github.com/nickprock/ccat_semantic_chunking/blob/main/IMG_6689.png)
