@@ -5,7 +5,7 @@ from typing import Dict, Literal
 
 class MySettings(BaseModel):
     """
-    breakpoint_threshold_type must be one between ["percentile", "standard_deviation", "interquartile"]
+    breakpoint_threshold_type must be one between ["percentile", "standard_deviation", "interquartile", "gradient"]
     breakpoint_threshold_amount:
     recommended values by langchain
         "percentile": 95,
