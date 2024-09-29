@@ -1,1 +1,1 @@
-langchain_experimental
+langchain_experimental==0.0.60
